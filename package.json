@@ -1,0 +1,18 @@
+{
+  "name": "natiga_bot",
+  "version": "1.0.0",
+  "description": "a telegram bot which does some automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdulrahman Alkhateeb",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "html-pdf-node": "^1.0.8",
+    "node-html-to-image": "^3.2.4",
+    "node-telegram-bot-api": "^0.58.0",
+    "request-promise": "^4.2.6"
+  }
+}
