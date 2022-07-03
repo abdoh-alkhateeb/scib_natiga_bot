@@ -22,7 +22,7 @@ async function retrieveResult(username, bran) {
   return result;
 }
 
-const bot = new TelegramBot(process.env.BOT_TOKEN, {polling: true});
+const bot = new TelegramBot("5343523576:AAHKfL860cr6pX2TjCPonIZGfPQbqnPgc-k", {polling: true});
 
 bot.on("message", (msg) => {
   const chatId = msg.chat.id;
